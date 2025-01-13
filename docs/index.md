@@ -1,46 +1,25 @@
-# Welcome to use MkDocs Template
+# Welcome to use OneKVM!
 
-GitHub: [mmdjiji/mkdocs-template](https://github.com/mmdjiji/mkdocs-template)
+??? tip "Copyright statement"
+    OneKVM is an [open-source firmware](https://github.com/mofeng-git/One-KVM) by GPL-3.0 license. We used it for our hardware project, and here is the documentation.
 
-A template of mkdocs by [JiJi](https://mmdjiji.com), for full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## CI/CD
-This repository uses GitHub Actions for CI/CD. You don't need to build your documents manually. Just commit your documents (then run `git push`), and then turn on the GitHub Pages in the settings to access your online documents. (For this demo is [https://mmdjiji.github.io/mkdocs-template](https://mmdjiji.github.io/mkdocs-template))
+## What is OneKVM?
 
-## Commands
+![Intro](./assets/Intro.png)
 
-* `pip install -r requirements.txt` - Install requirements before use
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+If you work remotely or frequently use remote software such as TeamViewer, it's time to purchase a OneKVM as a backup. When there are some problems with the computer (which often happens and there are always bugs), if you are not around the computer, things will become very awkward.
 
-## Project layout
-```bash
-mkdocs.yml     # The configuration file.
-.github/
-    workflows/ # For the GitHub Actions
-docs/
-    index.md   # The documentation homepage.
-    ...        # Other markdown pages, images and other files.
-```
+At the same time, if you are a data center operator or engaged in related work, why not consider purchasing a OneKVM for hardware remote control, so that you will not lose control of remote devices in the face of any possible accidents.
 
-## Themes
-You can use the following code (add them to `mkdocs.yml`) to change your theme (default: `mkdocs`):
-```yaml
-theme:
-  name: mkdocs
-```
+## Get started
 
-There are many choices for you:
+Once you received the hardware, you can follow the steps below to get started:
 
-|theme's name|
-|-|
-|mkdocs|
-|readthedocs|
-|material|
+1. Connect the network cable to the LAN port of the router, make sure the network is available.
+2. Plug in the power adapter.
+3. Connect the `HDMI Out` cable to the monitor, and you can see the ip address on the screen.
+4. Open the browser and visit the ip address, you will see the login page.
+5. Use the `admin` / `admin` for default to login, and you can start to use it.
+6. Connect the `HDMI In` and `USB Out` cable to which you want to control, then back to the browser.
 
-Of course, I would like to use `material` theme because of its simple and elegant.
-
-## License
-Follows [mkdocs/mkdocs](https://github.com/mkdocs/mkdocs), use [BSD-2-Clause](LICENSE).
